@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Loops</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="js/table.js"></script>
+	<style> 
+	.main{
+		width: 40vw;
+		height: 100vh;
+		border: 1px solid blue;
+		text-align: center;
+		margin: auto;
+	}
+	.form{
+		width: 30vw;
+		height: 30vh;
+		border: 1px solid blue;
+		margin-left: 3vw;
+	}
+	.display{
+		margin-top: 3vh;
+		margin-left: 3vw;
+		width: 30vw;
+		height: 50vh;
+		border: 1px solid blue;
+	}
+	select{
+		margin-top: 3vh;
+	}
+	</style>
+	
+</head>
+<body>
+<div class="main">
+<h1>Table Using Loops</h1>
+	<div class="form">
+		Select Table:
+		<select id="table">
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+		</select>
+		<br/>
+		Select Table Size:
+		<select id="size" >
+			<option value="2">2</option>
+			
+			<option value="20">20</option>
+			<option value="50">50</option>
+			<option value="100">100</option>
+		</select>
+		<br/>
+		Select Sort Type:
+		<select id="sort">
+			<option value="asc">Ascending</option>
+			<option value="desc">Descending</option>
+			
+		</select>
+		<br/>
+		Select Option:
+		<select id="option">
+			<option value="e">Even</option>
+			<option value="o">Odd</option>
+			
+		</select>
+		<br/>
+		<button id="show" onclick="display()">Display</button>
+	</div>
+	<div class="display">
+
+	</div>
+</div>
+
+</body>
+</html>
